@@ -1,0 +1,430 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  width: 100%;
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 68px 0 65px;
+  display: grid;
+  grid-template-columns:
+    2.1fr
+    1.1fr
+    1.1fr
+    1.1fr
+    1fr;
+  column-gap: 65px;
+  position: relative;
+}
+
+.footer h3 {
+  margin: 0 0 34px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #111;
+}
+
+.footer-about {
+  min-width: 0;
+}
+
+.footer-about > h3 {
+  white-space: nowrap;
+}
+
+.hotline {
+  margin-bottom: 31px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hotline p {
+  margin: 0 0 3px;
+  font-size: 14px;
+  color: #111;
+}
+
+.hotline h2 {
+  margin: 0;
+  font-size: 31px;
+  line-height: 1.1;
+  color: #12bb1c;
+  font-weight: 700;
+}
+
+.contact-info {
+  margin-bottom: 39px;
+}
+
+.contact-info p {
+  margin: 0 0 6px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #111;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.social-icons a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #e5e7ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.social-icons a:hover {
+  background: #12bb1c;
+  color: #fff;
+}
+
+.footer-selects {
+  display: flex;
+  gap: 9px;
+  margin-top: 91px;
+}
+
+.footer-selects button {
+  height: 43px;
+  padding: 0 14px;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 7px;
+  font-size: 13px;
+  color: #222;
+  cursor: pointer;
+}
+
+.footer-selects button span {
+  margin-left: 7px;
+  font-size: 15px;
+}
+
+.footer-column {
+  min-width: 0;
+}
+
+.footer-column h3 {
+  margin-bottom: 34px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 14px;
+}
+
+.footer-column li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #6d6d6d;
+  transition: 0.2s;
+}
+
+.footer-column li a:hover {
+  color: #12bb1c;
+}
+
+.footer-subscribe {
+  grid-column: 2 / 6;
+  margin-top: 62px;
+  padding-left: 0;
+}
+
+.footer-subscribe h3 {
+  margin: 0 0 35px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.footer-subscribe h3 span {
+  color: #ff3030;
+}
+
+.subscribe-form {
+  width: 100%;
+  height: 43px;
+  border-bottom: 1px solid #d5d5d5;
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+.subscribe-form input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #222;
+  padding: 0 32px;
+}
+
+.subscribe-form input::placeholder {
+  color: #777;
+}
+
+.subscribe-form button {
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: #0db817;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0 0;
+}
+
+.subscribe-form button:hover {
+  color: #07910e;
+}
+
+.policy-text {
+  margin: 0;
+  font-size: 13px;
+  color: #777;
+  font-style: italic;
+}
+
+.policy-text a {
+  color: #222;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+}
+
+.footer-bottom-container {
+  max-width: 1280px;
+  height: 98px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.copyright strong {
+  color: #111;
+}
+
+.payment-methods {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.payment-methods span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.paypal {
+  color: #143b8f;
+  font-size: 22px;
+  font-family: Arial;
+}
+
+.mastercard {
+  color: #ef4b24;
+  font-size: 19px;
+  letter-spacing: -7px;
+}
+
+.visa {
+  color: #243d91;
+  font-size: 17px;
+}
+
+.stripe {
+  color: #6974e8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.klarna {
+  color: #111;
+  font-size: 19px;
+}
+
+.mobile-site {
+  color: #006eff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.mobile-site:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1100px) {
+  .footer-container,
+  .footer-bottom-container {
+    max-width: 92%;
+  }
+
+  .footer-container {
+    column-gap: 35px;
+  }
+
+  .footer-about > h3 {
+    font-size: 15px;
+  }
+
+  .hotline h2 {
+    font-size: 25px;
+  }
+
+  .footer h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 45px;
+  }
+
+  .footer-about {
+    grid-column: span 2;
+  }
+
+  .footer-about > h3 {
+    white-space: normal;
+  }
+
+  .footer-subscribe {
+    grid-column: span 2;
+    margin-top: 0;
+  }
+
+  .footer-selects {
+    margin-top: 40px;
+  }
+
+  .footer-bottom-container {
+    height: auto;
+    padding: 25px 0;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    max-width: 90%;
+    padding: 45px 0;
+  }
+
+  .footer-about,
+  .footer-column,
+  .footer-subscribe {
+    grid-column: span 2;
+  }
+
+  .footer-about > h3 {
+    font-size: 16px;
+  }
+
+  .hotline h2 {
+    font-size: 26px;
+  }
+
+  .footer-column h3 {
+    margin-bottom: 22px;
+  }
+
+  .footer-column li {
+    margin-bottom: 11px;
+  }
+
+  .footer-subscribe h3 {
+    white-space: normal;
+    line-height: 25px;
+    margin-bottom: 22px;
+  }
+
+  .subscribe-form {
+    height: 48px;
+  }
+
+  .subscribe-form input {
+    padding: 0 5px;
+    font-size: 13px;
+  }
+
+  .footer-bottom-container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 0;
+  }
+
+  .payment-methods {
+    order: 2;
+    gap: 17px;
+  }
+
+  .mobile-site {
+    order: 3;
+  }
+}
+
+@media (max-width: 400px) {
+  .social-icons {
+    gap: 8px;
+  }
+
+  .social-icons a {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+  }
+
+  .footer-selects {
+    margin-top: 35px;
+  }
+
+  .footer-selects button {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .payment-methods {
+    gap: 12px;
+  }
+}

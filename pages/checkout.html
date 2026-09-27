@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SWOO</title>
+
+    <link rel="stylesheet" href="../css/checkout.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"
+    />
+  </head>
+
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav id="navbar-top">
+      <div id="nav">
+        <div class="hotline">
+          <p>Hotline 24/7</p>
+          <h3>(025) 3886 25 16</h3>
+        </div>
+
+        <div class="nav-right">
+          <div class="nav-buttons">
+            <button>Sell on Swoo</button>
+            <button>Order Track</button>
+          </div>
+
+          <div class="nav-options">
+            <select class="currency">
+              <option>USD</option>
+            </select>
+
+            <div class="language">
+              <span class="fi fi-us flag"></span>
+              <span>Eng</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navbar-mid">
+        <div class="logo">
+          <img src="../images/logo.svg" alt="SWOO Logo" />
+        </div>
+        <div class="dropdowns">
+          <select>
+            <option>HOMES</option>
+          </select>
+
+          <select>
+            <option>PAGES</option>
+          </select>
+
+          <select>
+            <option>PRODUCTS</option>
+          </select>
+
+          <a href="contact.html#contact-form">CONTACT</a>
+        </div>
+
+        <div id="login-and-cart">
+          <div class="icon-circle">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="icon-circle">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+
+          <div class="login-icon">
+            <div class="icon-circle">
+              <i class="fa-regular fa-user"></i>
+            </div>
+
+            <div class="login">
+              <p>WELCOME</p>
+
+              <div>
+                <a href="../pages/login.html">LOG IN</a>
+                <span>/</span>
+                <a href="../pages/register.html">REGISTER</a>
+              </div>
+            </div>
+          </div>
+
+          <a class="cart" href="cart.html" aria-label="Open cart">
+            <div class="cart-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="cart-count">5</span>
+            </div>
+
+            <div class="cart-info">
+              <p>CART</p>
+              <strong>$1,689.00</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="search-bar">
+      <div class="search-box">
+        <div class="category-select">
+          <span>All Categories</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+        <input type="text" placeholder="Search anything..." />
+
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      </div>
+
+      <div class="promos">
+        <span>FREE SHIPPING OVER $199</span>
+        <span>30 DAYS MONEY BACK</span>
+        <span>100% SECURE PAYMENT</span>
+      </div>
+    </div>
+
+    <!-- checkout -->
+    <section class="checkout-page">
+      <div class="checkout-container">
+        <h1 class="checkout-title">CHECKOUT</h1>
+        <div class="checkout-notices">
+          <div class="notice">
+            Returning customer?
+            <a href="#"> Click here to log in </a>
+          </div>
+          <div class="notice">
+            Have a coupon?
+            <a href="#"> Click here to enter your code </a>
+          </div>
+        </div>
+        <div class="checkout-content">
+          <section class="billing-section">
+            <h2>Billing Detail</h2>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">
+                  First Name
+                  <span>*</span>
+                </label>
+                <input type="text" id="firstName" />
+              </div>
+              <div class="form-group">
+                <label for="lastName">
+                  Last Name
+                  <span>*</span>
+                </label>
+                <input type="text" id="lastName" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="company">
+                Company Name
+                <small>(Optional)</small>
+              </label>
+              <input type="text" id="company" />
+            </div>
+            <div class="form-group">
+              <label for="country">
+                Country / Region
+                <span>*</span>
+              </label>
+              <select id="country">
+                <option>United States (US)</option>
+                <option>Pakistan</option>
+                <option>United Kingdom</option>
+                <option>Canada</option>
+                <option>Australia</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label> Street Address </label>
+              <input
+                type="text"
+                placeholder="House number and street name ..."
+              />
+              <input
+                type="text"
+                class="address-second"
+                placeholder="Apartment, suite, unit, etc (Optional)"
+              />
+            </div>
+            <div class="form-group">
+              <label for="city">
+                Town / City
+                <span>*</span>
+              </label>
+              <input type="text" id="city" />
+            </div>
+            <div class="form-group">
+              <label for="state">
+                State / County
+                <span>*</span>
+              </label>
+              <select id="state">
+                <option>Washington</option>
+                <option>California</option>
+                <option>New York</option>
+                <option>Texas</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="zip">
+                Zip Code
+                <span>*</span>
+              </label>
+              <input type="text" id="zip" />
+            </div>
+            <div class="form-group">
+              <label for="phone">
+                Phone Number
+                <span>*</span>
+              </label>
+              <input type="tel" id="phone" />
+            </div>
+            <div class="form-group">
+              <label for="email">
+                Email Address
+                <span>*</span>
+              </label>
+              <input type="email" id="email" />
+            </div>
+            <div class="create-account">
+              <input type="checkbox" id="createAccount" />
+
+              <label for="createAccount"> Create an account? </label>
+            </div>
+            <div class="additional-info">
+              <h2>Additional Information</h2>
+              <div class="form-group">
+                <label for="orderNotes">
+                  Order Notes
+                  <small>(Optional)</small>
+                </label>
+                <textarea
+                  id="orderNotes"
+                  placeholder="Note about your order, e.g. special note for delivery"
+                ></textarea>
+              </div>
+            </div>
+          </section>
+          <aside class="order-section">
+            <h2 class="your-order-title">Your Order</h2>
+            <div class="order-box">
+              <div class="order-header">
+                <span> PRODUCT </span>
+                <span> SUB TOTAL </span>
+              </div>
+              <div class="order-product">
+                <div class="product-info">
+                  <div class="product-image">
+                    <img src="images/product.jpg" alt="Product" />
+                  </div>
+                  <div>
+                    <h3>
+                      Pinnaeple Macbook Pro 2022
+                      <br />
+                      M1/ 512GB
+                    </h3>
+                    <p>x 3</p>
+                  </div>
+                </div>
+              </div>
+              <div class="shipping-row">
+                <span> Worldwide Standard Shipping Free </span>
+                <strong> + $9.50 </strong>
+              </div>
+              <div class="order-total">
+                <strong> Order Total </strong>
+                <strong> $1,746.50 </strong>
+              </div>
+            </div>
+            <div class="payment-box">
+              <div class="payment-method active">
+                <div class="payment-heading">
+                  <span class="checkbox checked"> ✓ </span>
+                  <strong> Direct Bank Transfer </strong>
+                </div>
+                <p>
+                  Make your payment directly into our bank account. Please use
+                  your Order ID as the payment reference. Your order will not be
+                  shipped until the funds have cleared in our account.
+                </p>
+              </div>
+              <div class="payment-method">
+                <div class="payment-heading">
+                  <span class="checkbox"> </span>
+                  <strong> Cash on Delivery </strong>
+                </div>
+              </div>
+              <div class="payment-method paypal-method">
+                <div class="payment-heading">
+                  <span class="checkbox"> </span>
+                  <strong> Paypal </strong>
+                  <a href="#"> What's Paypal? </a>
+                </div>
+                <div class="paypal-logo">PayPal</div>
+              </div>
+              <button class="place-order">PLACE ORDER</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>SWOO - 1ST NYC TECH ONLINE MARKET</h3>
+          <div class="hotline">
+            <p>HOTLINE 24/7</p>
+            <h2>(025) 3686 25 16</h2>
+          </div>
+          <div class="contact-info">
+            <p>257 Thatcher Road St, Brooklyn, Manhattan,</p>
+            <p>NY 10092</p>
+            <p>contact@Swootechmart.com</p>
+          </div>
+          <div class="social-icons">
+            <a href="#">𝕏</a>
+            <a href="#">f</a>
+            <a href="#">◎</a>
+            <a href="#">▶</a>
+            <a href="#">p</a>
+          </div>
+          <div class="footer-selects">
+            <button>USD <span>⌄</span></button>
+            <button>🇺🇸 Eng <span>⌄</span></button>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>TOP CATEGORIES</h3>
+          <ul>
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">PC & Computers</a></li>
+            <li><a href="#">Cell Phones</a></li>
+            <li><a href="#">Tablets</a></li>
+            <li><a href="#">Gaming & VR</a></li>
+            <li><a href="#">Networks</a></li>
+            <li><a href="#">Cameras</a></li>
+            <li><a href="#">Sounds</a></li>
+            <li><a href="#">Office</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>COMPANY</h3>
+          <ul>
+            <li><a href="#">About Swoo</a></li>
+            <li><a href="contact.html#contact-form">Contact</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Store Locations</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>HELP CENTER</h3>
+          <ul>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Product Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>PARTNER</h3>
+          <ul>
+            <li><a href="#">Become Seller</a></li>
+            <li><a href="#">Affiliate</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Partnership</a></li>
+          </ul>
+        </div>
+        <div class="footer-subscribe">
+          <h3>
+            SUBSCRIBE & GET
+            <span>10% OFF</span>
+            FOR YOUR FIRST ORDER
+          </h3>
+          <div class="subscribe-form">
+            <input type="email" placeholder="Enter your email address" />
+            <button>SUBSCRIBE</button>
+          </div>
+          <p class="policy-text">
+            By subscribing, you’re accepted the our
+            <a href="#">Policy</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <p class="copyright">
+            © 2024 <strong>Shawonetc3</strong>. All Rights Reserved
+          </p>
+          <div class="payment-methods">
+            <span class="paypal">P</span>
+            <span class="mastercard"> ●● </span>
+            <span class="visa">VISA</span>
+            <span class="stripe">stripe</span>
+            <span class="klarna">Klarna.</span>
+          </div>
+          <a href="#" class="mobile-site"> Mobile Site </a>
+        </div>
+      </div>
+    </footer>
+    <script src="../scripts/cart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "BOSO 2 Wireless On Ear Headphone",
+    "category": "best-seller",
+    "ratingCount": 152,
+    "price": 359,
+    "oldPrice": null,
+    "discount": 199,
+    "image": "./images/headphones.jpg",
+    "shipping": "FREE SHIPPING",
+    "gift": "FREE GIFT",
+    "stock": true
+  },
+  {
+    "id": 2,
+    "name": "OPod Pro 12.9 Inch 11 M1 2023, 64GB + WiFi, GPS",
+    "category": "best-seller",
+    "ratingCount": 152,
+    "price": 569,
+    "oldPrice": 759,
+    "discount": 199,
+    "image": "./images/oppo-phone.jpg",
+    "shipping": "FREE SHIPPING",
+    "gift": "FREE GIFT",
+    "stock": true
+  },
+  {
+    "id": 3,
+    "name": "uLoski Mini Case 2.0, Xenon i10 / 32GB / SSD 512GB / VGA 8GB",
+    "category": "best-seller",
+    "ratingCount": 8,
+    "price": 1729,
+    "oldPrice": 2119,
+    "discount": 59,
+    "image": "./images/soundbar.jpg",
+    "shipping": "FREE SHIPPING",
+    "gift": null,
+    "stock": false
+  },
+  {
+    "id": 4,
+    "name": "Oppo Watch Series 8 GPS + Cellular Stainless Steel Case with Milanese Loop",
+    "category": "best-seller",
+    "ratingCount": 8,
+    "price": 979,
+    "oldPrice": 1259,
+    "discount": 3,
+    "image": "./images/watch.jpg",
+    "shipping": "$2.98 SHIPPING",
+    "gift": null,
+    "stock": true,
+    "preorder": true
+  },
+  {
+    "id": 5,
+    "name": "iSmart 24W Charger",
+    "category": "best-seller",
+    "ratingCount": 9,
+    "price": 9,
+    "oldPrice": 12,
+    "discount": null,
+    "image": "./images/charger.jpg",
+    "shipping": "$3.98 SHIPPING",
+    "gift": null,
+    "stock": true,
+    "contact": true
+  }
+]
