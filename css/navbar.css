@@ -21,8 +21,10 @@ body {
   background-color: #fff;
 }
 
-.hotline {
+.hotline,
+#nav .hotline {
   display: flex;
+  flex-direction: row !important;
   align-items: center;
   gap: 15px;
 }
@@ -440,24 +442,7 @@ body {
 
 @media (max-width: 768px) {
   #nav {
-    min-height: 48px;
-    padding: 8px 15px;
-
-    flex-wrap: wrap;
-  }
-
-  .hotline {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .hotline p {
-    padding: 6px 12px;
-    font-size: 10px;
-  }
-
-  .hotline h3 {
-    font-size: 10px;
+    display: none;
   }
 
   .nav-right {
@@ -466,9 +451,9 @@ body {
 
   #navbar-mid {
     min-height: auto;
-    padding: 15px;
+    padding: 12px 15px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
   }
 
@@ -486,6 +471,7 @@ body {
 
   #login-and-cart {
     margin-left: auto;
+    gap: 8px;
   }
 
   .icon-circle {

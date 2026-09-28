@@ -42,19 +42,19 @@
   white-space: nowrap;
 }
 
-.hotline {
+.footer .hotline {
   margin-bottom: 31px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column !important;
 }
 
-.hotline p {
+.footer .hotline p {
   margin: 0 0 3px;
   font-size: 14px;
   color: #111;
 }
 
-.hotline h2 {
+.footer .hotline h2 {
   margin: 0;
   font-size: 31px;
   line-height: 1.1;
